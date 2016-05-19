@@ -22,3 +22,28 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+.config( function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+
+  .state('step-1', {
+    url: "/",
+    templateUrl: "step-1.html",
+  })
+  
+  .state("step-1-fail", {
+    url: "/step-1-fail",
+    templateUrl: "step-1-fail.html",
+  })
+
+  .state("step-1-complete", {
+    url: "/step-1-complete",
+    templateUrl: "step-1-complete.html"
+  });
+  
+  $urlRouterProvider.otherwise("/")
+  
+})
+
+.controller('simple-form-ctrl', function($scope) {
+});

@@ -32,6 +32,12 @@
 	background-color: #ffffff;
 }
 
+.button.active, .button.activated {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
 .button.button-stable {
     border-color: transparent;
     background-color: #CCD6DD;
@@ -44,10 +50,16 @@
     color: #ffffff;
 }
 
-.button.active, .button.activated {
-    border-color: #ffffff;
-    background-color: #ffffff;
-    color: #000000;
+.button.button-balanced {
+    border-color: transparent;
+    background-color: #00B140;
+    color: #ffffff;
+}
+
+.button.button-balanced.active, .button.button-balanced.activated {
+    border-color: #a2a2a2;
+    background-color: #00B140;
+    color: #ffffff;
 }
 
 .card {
@@ -81,4 +93,8 @@
 .bottom {
 	position: absolute;
 	bottom: 0;
+}
+
+.fail {
+	color: #E05A30;
 }
