@@ -111,6 +111,141 @@
             </div>
             <p>Please upload any photo here.</p>
           </div>
+          <button ui-sref="step-2-empty" class="button button-block button-balanced bottom">
+            NEXT
+          </button>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="step-2-empty.html" type="text/ng-template">
+      <ion-view>
+        <ion-content scroll="false" class="background">
+          <div class="button-bar">
+            <a class="button done">Step 1</a>
+            <span class="btn-next"></span>
+            <a class="button active">Step 2</a>
+            <span class="btn-next"></span>
+            <a class="button">Step 3</a>
+          </div>
+          <div class="padding">
+            <h5>Your Contact Information</h5>
+            <p>Fill in the following details</p>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="Your First Name">
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="Your Last Name">
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="Contact Number">
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="Address">
+              </label>
+            </div>
+          </div>
+          <button ui-sref="step-2-fail" class="button button-block button-stable bottom">
+            NEXT
+          </button>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="step-2-fail.html" type="text/ng-template">
+      <ion-view>
+        <ion-content scroll="false" class="background">
+          <div class="button-bar">
+            <a class="button done">Step 1</a>
+            <span class="btn-next"></span>
+            <a class="button active">Step 2</a>
+            <span class="btn-next"></span>
+            <a class="button">Step 3</a>
+          </div>
+          <div class="padding">
+            <h5>Your Contact Information</h5>
+            <p>Fill in the following details</p>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="Your First Name">
+              </label>
+            </div>
+            <p class="fail">This field cannot be empty</p>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Your Last Name</span>
+                <p class="form">Walker</p>
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Contact Number</span>
+                <p class="form">+65 833123456</p>
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Address</span>
+                <p class="form">Raffles Place
+                <br>#02-123
+                <br>Singapore 142303</p>
+              </label>
+            </div>
+          </div>
+          <button ui-sref="step-2-complete" class="button button-block button-stable bottom">
+            NEXT
+          </button>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="step-2-complete.html" type="text/ng-template">
+      <ion-view>
+        <ion-content scroll="false" class="background">
+          <div class="button-bar">
+            <a class="button done">Step 1</a>
+            <span class="btn-next"></span>
+            <a class="button active">Step 2</a>
+            <span class="btn-next"></span>
+            <a class="button">Step 3</a>
+          </div>
+          <div class="padding">
+            <h5>Your Contact Information</h5>
+            <p>Fill in the following details</p>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Your First Name</span>
+                <p class="form">Paul</p>
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Your Last Name</span>
+                <p class="form">Walker</p>
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Contact Number</span>
+                <p class="form">+65 833123456</p>
+              </label>
+            </div>
+            <div class="list list-inset">
+              <label class="item item-input item-stacked-label">
+                <span class="input-label">Address</span>
+                <p class="form">Raffles Place
+                <br>#02-123
+                <br>Singapore 142303</p>
+              </label>
+            </div>
+          </div>
           <button ui-sref="" class="button button-block button-balanced bottom">
             NEXT
           </button>
