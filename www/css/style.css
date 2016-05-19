@@ -1,7 +1,20 @@
 /* Empty. Add your own CSS if you like */
 
+p {
+	color: #565D6B;
+}
+
+h4 {
+	color: #363A45;
+}
+
+.pane {
+	background-color: #F7F9FB;
+}
+
 .background, .background .pane {
 	background-color: #F7F9FB;
+	margin: 10px;
 }
 
 .bar.bar-stable .title {
@@ -20,7 +33,7 @@
 	float: right;
     width: 24px;
     height: 24px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .button {
@@ -45,7 +58,7 @@
 }
 
 .button.button-stable.active, .button.button-stable.activated {
-    border-color: #a2a2a2;
+    border-color: transparent;
     background-color: #CCD6DD;
     color: #ffffff;
 }
@@ -69,14 +82,6 @@
 	padding: 30px 0 0 0;
 }
 
-h4 {
-	color: #363A45;
-}
-
-p {
-	color: #565D6B;
-}
-
 .card {
     padding-top: 1px;
     padding-bottom: 1px;
@@ -92,9 +97,13 @@ p {
 }
 
 .card .item {
-	padding: 60px 0;
+	padding: 40px 0;
 	background-color: #EAEFF2;
 	border: 1px solid #CCD6DD;
+}
+
+.card .no-padding {
+	padding: 0;
 }
 
 .card .item p {
@@ -122,12 +131,13 @@ p {
 .bottom {
 	position: absolute;
 	bottom: 0;
-}
-
-.fail {
-	color: #E05A30;
+	z-index: 2;
 }
 
 .done {
 	color: #00B23E;
+}
+
+.fail {
+	color: #E05A30;
 }

@@ -39,7 +39,7 @@
 
     <script id="step-1.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a class="button active">Step 1</a>
             <span class="btn-next"></span>
@@ -47,6 +47,8 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Upload Photo</h4>
             <div class="card">
@@ -66,7 +68,7 @@
 
     <script id="step-1-fail.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a class="button active">Step 1</a>
             <span class="btn-next"></span>
@@ -74,6 +76,8 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Upload Photo</h4>
             <p class="fail">You need to upload a photo</p>
@@ -94,7 +98,7 @@
 
     <script id="step-1-complete.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a class="button active">Step 1</a>
             <span class="btn-next"></span>
@@ -102,10 +106,12 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Upload Photo</h4>
             <div class="card">
-              <div class="item item-text-wrap content-center">
+              <div class="item item-text-wrap content-center no-padding">
                 <img src="img/img_add_photo_success.png">
               </div>
             </div>
@@ -120,7 +126,7 @@
 
     <script id="step-2-empty.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a ui-sref="step-1" class="button done">Step 1</a>
             <span class="btn-next"></span>
@@ -128,6 +134,8 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Your Contact Information</h4>
             <p>Fill in the following details</p>
@@ -161,7 +169,7 @@
 
     <script id="step-2-fail.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a ui-sref="step-1" class="button done">Step 1</a>
             <span class="btn-next"></span>
@@ -169,6 +177,8 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Your Contact Information</h4>
             <p>Fill in the following details</p>
@@ -208,7 +218,7 @@
 
     <script id="step-2-complete.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a ui-sref="step-1" class="button done">Step 1</a>
             <span class="btn-next"></span>
@@ -216,6 +226,8 @@
             <span class="btn-next"></span>
             <a class="button">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
             <h4>Your Contact Information</h4>
             <p>Fill in the following details</p>
@@ -255,7 +267,7 @@
 
     <script id="step-3-finish.html" type="text/ng-template">
       <ion-view>
-        <ion-content scroll="false" class="background">
+        <ion-header-bar class="bar bar-subheader">
           <div class="button-bar">
             <a ui-sref="step-1" class="button done">Step 1</a>
             <span class="btn-next"></span>
@@ -263,8 +275,10 @@
             <span class="btn-next"></span>
             <a class="button done">Step 3</a>
           </div>
+        </ion-header-bar>
+        <ion-content scroll="false" class="background">
           <div class="padding">
-            <h1>Complete</h1>
+            <h1>Complete.</h1>
           </div>
         </ion-content>
       </ion-view>
