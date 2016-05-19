@@ -15,7 +15,20 @@
     color: #444;
 }
 
+.btn-next {
+	background-image: url(../img/btn_next.png);
+	float: right;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0;
+}
+
 .button {
+	background-color: #ffffff;
+	color: #9B9B9B;
+}
+
+.button-bar {
 	background-color: #ffffff;
 }
 
@@ -29,4 +42,43 @@
     border-color: #a2a2a2;
     background-color: #CCD6DD;
     color: #ffffff;
+}
+
+.button.active, .button.activated {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.card {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: none;
+}
+
+.card, .list-inset {
+    overflow: hidden;
+    margin: 20px 10px;
+    border-radius: 2px;
+    background-color: #EAEFF2;
+    border-radius: 4px;
+}
+
+.card .item {
+	padding: 40px 0;
+	background-color: #EAEFF2;
+	border: 1px solid #CCD6DD;
+}
+
+.card .item p {
+	color: #00B140;
+}
+
+.content-center {
+	text-align: center;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
 }
