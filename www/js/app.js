@@ -54,6 +54,11 @@ angular.module('starter', ['ionic'])
   .state("step-2-complete", {
     url: "/step-2-complete",
     templateUrl: "step-2-complete.html"
+  })
+
+  .state("step-3-finish", {
+    url: "/step-3-finish",
+    templateUrl: "step-3-finish.html"
   });
   
   $urlRouterProvider.otherwise("/")
